@@ -36,6 +36,7 @@ obj-$(CONFIG_TOUCHSCREEN_FUJITSU)	+= fujitsu_ts.o
 obj-$(CONFIG_TOUCHSCREEN_GSL1688E)	+= gsl_ts_driver.o gsl_ReadArrayData.o gsl_point_id.o
 obj-$(CONFIG_TOUCHSCREEN_GSL1688E_ARM64)	+= gsl_ts_driver.o gsl_ReadArrayData.o gsl_point_id_arm64.o
 obj-$(CONFIG_TOUCHSCREEN_GEN_VKEYS)	+= gen_vkeys.o
+obj-$(CONFIG_TOUCHSCREEN_FT5X46)	+= ft5x46/
 obj-$(CONFIG_TOUCHSCREEN_ILI210X)	+= ili210x.o
 obj-$(CONFIG_TOUCHSCREEN_INEXIO)	+= inexio.o
 obj-$(CONFIG_TOUCHSCREEN_INTEL_MID)	+= intel-mid-touch.o
